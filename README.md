@@ -1,1 +1,1 @@
-# covid-track
+README.md
