@@ -1,5 +1,6 @@
 # moving text browser source
+![](example.gif)
 
-## Coming soon!
+## Documentation Coming soon!
 
 For now, see [TODO.md](./TODO.md)

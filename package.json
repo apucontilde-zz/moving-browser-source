@@ -1,0 +1,36 @@
+{
+  "name": "test1",
+  "version": "1.0.0",
+  "description": "testing overlays",
+  "main": "main.js",
+  "eslintConfig": {
+    "rules": {
+      "linebreak-style": 0
+    }
+  },
+  "prettier": {
+    "arrowParens": "avoid",
+    "singleQuote": true,
+    "trailingComma": "all",
+    "printWidth": 100,
+    "proseWrap": "always",
+    "bracketSpacing": true
+  },
+  "scripts": {
+    "dev": "live-server .",
+    "start": "http-server .",
+    "lint": "eslint . --fix"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^0.12.3",
+    "phaser": "3.23.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.12.1",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "live-server": "^1.2.1"
+  }
+}
